@@ -15,7 +15,7 @@ function App() {
     if(username==="user" && password==="password"){
       setMessage("Welcome, user!");
     }else{      
-      setMessage("Invalid username and password");
+      setMessage("Invalid username or password");
     }
   }
   return (
